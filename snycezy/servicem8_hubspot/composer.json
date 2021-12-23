@@ -1,0 +1,33 @@
+{
+    "name": "syncezy/servicem8_hubspot",
+    "description": "SyncEzy you service m8 with hubspot",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Abhishek Jain",
+            "email": "jain640@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Syncezy\\ServiceM8_HubSpot\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SnycEzy\\ServiceM8_HubSpot\\SyncEzyServiceM8HubSpotServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "hubspot/api-client" : "^5.0",
+        "laravelcollective/html" : "^5.5"
+    },
+    "require-dev": {
+        "laravelcollective/html" : "^5.5"
+    },
+    "prefer-stable": true
+
+}

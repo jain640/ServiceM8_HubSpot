@@ -10,7 +10,7 @@ use SnycEzy\ServiceM8_HubSpot\Servicem8AccountInfo as ServiceM8_HubSpotServicem8
 class SyncDetail extends Model
 {
     use SoftDeletes;
-    //
+    //Abhishek
     protected $table = 'sync_detail';
 
     protected $fillable = [
